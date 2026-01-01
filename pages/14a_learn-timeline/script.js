@@ -1,5 +1,5 @@
 // Import GSAP
-import gsap from "https://cdn.skypack.dev/gsap";
+import gsap from "gsap";
 
 // Get elements
 const cards = document.querySelectorAll(".card");
