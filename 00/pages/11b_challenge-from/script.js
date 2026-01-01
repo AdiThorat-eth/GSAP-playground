@@ -1,9 +1,7 @@
 import gsap from "gsap";
 
-// Selecting the main card container
 let card = document.querySelector("#card");
 
-// Animation for Hover In
 card.addEventListener("mouseenter", () => {
   gsap.to(card, {
     rotateY: 180,
@@ -12,7 +10,6 @@ card.addEventListener("mouseenter", () => {
   });
 });
 
-// Animation for Hover Out
 card.addEventListener("mouseleave", () => {
   gsap.to(card, {
     rotateY: 0,
